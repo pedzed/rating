@@ -1,6 +1,6 @@
 <?php
 
-namespace pedzed\rating_system {
+namespace pedzed\formatting\rating {
     
     class RatingFormatter {
         

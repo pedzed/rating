@@ -1,6 +1,6 @@
 <?php
 
-use pedzed\rating_system\RatingFormatter;
+use pedzed\formatting\rating\RatingFormatter;
 
 spl_autoload_register(function($class){
     $dirs = [

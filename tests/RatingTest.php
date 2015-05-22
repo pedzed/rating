@@ -1,6 +1,6 @@
 <?php
 
-use pedzed\rating_system\RatingFormatter;
+use pedzed\formatting\rating\RatingFormatter;
 
 class RatingTest extends PHPUnit_Framework_TestCase {
     
