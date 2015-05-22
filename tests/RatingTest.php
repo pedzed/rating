@@ -71,7 +71,7 @@ class RatingTest extends PHPUnit_Framework_TestCase {
         
         foreach($expectedFormats as $rating => $expectedFormat) {
             $ratingFormatter->setRating($rating);
-            $actualFormat = $ratingFormatter;
+            $actualFormat = $ratingFormatter->getFormattedRating();
             $this->assertEquals($expectedFormat, $actualFormat);
         }
     }
