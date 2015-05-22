@@ -47,7 +47,6 @@ spl_autoload_register(function($class){
                 <h1>Rating Examples</h1>
             </div>
             <?php
-            
             $maxRatings = range(1, 5);
             $maxRatings[] = 10;
             
@@ -63,7 +62,6 @@ spl_autoload_register(function($class){
                 '2',
                 '3',
             ];
-            
             
             $ratingFormatter = new RatingFormatter();
             $ratingFormatter->setFilledIcon('<i class="fa fa-star rating-icon"></i>');
@@ -87,7 +85,6 @@ spl_autoload_register(function($class){
                 </div>
                 <?php
             }
-            
             ?>
         </div>
     </body>
