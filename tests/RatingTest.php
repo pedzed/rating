@@ -57,6 +57,7 @@ class RatingTest extends PHPUnit_Framework_TestCase {
         $expectedFormats = [
             '1'     => $this->_filledIcon.$this->_emptyFilledIcon.$this->_emptyFilledIcon,
             '1.1'   => $this->_filledIcon.$this->_emptyFilledIcon.$this->_emptyFilledIcon,
+            '1.24'  => $this->_filledIcon.$this->_emptyFilledIcon.$this->_emptyFilledIcon,
             '1.25'  => $this->_filledIcon.$this->_halfFilledIcon.$this->_emptyFilledIcon,
             '1.4'   => $this->_filledIcon.$this->_halfFilledIcon.$this->_emptyFilledIcon,
             '1.49'  => $this->_filledIcon.$this->_halfFilledIcon.$this->_emptyFilledIcon,
