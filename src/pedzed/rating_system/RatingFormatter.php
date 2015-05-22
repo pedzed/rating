@@ -62,6 +62,9 @@ namespace pedzed\rating_system {
             return $iconIndex > ($this->_rating + 0.75);
         }
         
+        /**
+         * @param int $rating
+         */
         public function setRating($rating) {
             $this->_rating = $rating;
         }
@@ -73,6 +76,9 @@ namespace pedzed\rating_system {
             return $this->_rating;
         }
         
+        /**
+         * @param int $maxRating
+         */
         public function setMaximumRating($maxRating) {
             $this->_maxRating = $maxRating;
         }
@@ -84,6 +90,9 @@ namespace pedzed\rating_system {
             return $this->_maxRating;
         }
         
+        /**
+         * @param string $filledIcon
+         */
         public function setFilledIcon($filledIcon) {
             $this->_filledIcon = $filledIcon;
         }
@@ -95,6 +104,9 @@ namespace pedzed\rating_system {
             return $this->_filledIcon;
         }
         
+        /**
+         * @param string $halfFilledIcon
+         */
         public function setHalfFilledIcon($halfFilledIcon) {
             $this->_halfFilledIcon = $halfFilledIcon;
         }
@@ -106,6 +118,9 @@ namespace pedzed\rating_system {
             return $this->_halfFilledIcon;
         }
         
+        /**
+         * @param string $emptyFilledIcon
+         */
         public function setEmptyFilledIcon($emptyFilledIcon) {
             $this->_emptyFilledIcon = $emptyFilledIcon;
         }
