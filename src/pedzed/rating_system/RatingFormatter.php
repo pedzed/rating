@@ -32,10 +32,6 @@ namespace pedzed\rating_system {
         /**
          * @return string
          */
-        public function __toString() {
-            return $this->getFormattedRating();
-        }
-        
         public function getFormattedRating() {
             $formattedRating = '';
             
